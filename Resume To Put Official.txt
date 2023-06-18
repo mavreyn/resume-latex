@@ -1,0 +1,30 @@
+OTeam
+
+Learned about principles of effective teamwork and communication during semester-long leadership class.
+Welcomed nearly 20,000 new students to the University of Central Florida throughout the summer.
+Spoke in front of over 750 people during largest and most demanding sessions.
+Directed foot traffic during resource fairs and led campus tours for students.
+Provided constructive program feedback and helped improve and reorder information in main Powerpoint.
+
+
+Profile
+
+Second-year student studying civil engineering in Orlando. Looking for internship experience related to structural drawings and design.
+
+
+Steel Bridge
+
+Designed and created 20' bridge to fit a hypothetical environment while remaining easy to transport and assemble.
+Learned basic tig welding techniques during spring workshops.
+
+
+Phantom Arm
+
+Derived matrix mathematics for 3 DOF Stewart Platform as the primary mechanism for neck related motion in humanoid robot.
+Assisted teammate in the implication of solution code using a custom made C library and interactive ESP32 wireless protocol.
+
+
+Astronomy Society
+
+Assembled 9” Cassegrain telescopes during KUTS (Knights Under the Stars) stargazing events.
+Located multiple well-known celestial objects and discussed their features with other amateur astronomers.
