@@ -1,0 +1,120 @@
+
+\documentclass[letterpaper]{article}
+    \usepackage{fullpage}
+    \usepackage{enumitem}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage{multicol}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+
+% DEFINITIONS FOR RESUME %
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{12pt} \large\textsc{#1}}
+    \vspace*{-12pt} \lineunder
+}
+
+% START DOCUMENT HERE %
+
+\begin{document}
+\vspace*{-25pt}
+    
+
+%==== Heading ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf {Maverick Reynolds}}\\
+	mcreynolds02@gmail.com $\cdot$ 954.224.6019\\
+\end{center}
+
+
+%==== Education ====%
+\header{Education}
+\textbf{University of Central Florida}\hfill Orlando, FL\\
+B.S. Computational Mathematics \hfill Expected Graduation: May 2025\\
+\hspace{7mm} \textit{GPA: 3.8}\\
+\vspace{3mm}
+
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{UCF Crimes} \hfill Feb 2023 - Present \\
+\textit{Python, SQL, OpenAI, Pandas} \hfill \textit{ucf-crimes.streamlit.app}\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Parsed over 300 total incident reports from UCF Police Department's public daily log into SQL database.
+	\item Used regex and Levenshtein distance with Python to preprocess addresses before geocoding.
+	\item Created images using Google Places API for distribution with Discord and Instagram.
+	\item Incorporated PandasAI to allow user to ask questions about the database using natural language processing.
+	\item Generated embeddings for each incident using OpenAI's Embeddings API to help improve title search accuracy.
+\end{itemize}
+
+\textbf{Multidimensional Cross Correlation} \hfill Jun 2023 - Jul 2023 \\
+\textit{Python, Streamlit, SciPy} \hfill \textit{adjusted-cross-correlation.streamlit.app}\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Developed algorithm using SciPy to measure and detect shifts in 2-dimensional quantitative data (>1000 entries each) along a single axis.
+	\item Deployed web-applet using Streamlit to allow interactive use with data collected during electrochemical research at Florida Tech.
+\end{itemize}
+
+\textbf{IEEE Phantom Arm Project} \hfill Sep 2023 - Nov 2023\\
+\textit{C, GNU Scientific Library} \\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Calculated distances necessary to extend actuators on 3DoF Stewart platform to imitate human neck (ball-and-socket) rotation.
+	\item Wrote software using C libraries for matrix addition and multiplication.
+\end{itemize}
+
+\textbf{Word Ladder Project} \hfill Jan 2022 - Feb 2022\\
+\textit{Python, DFS} \hfill \textit{github.com/mavreyn/word-ladder}\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Scripted algorithm to determine shortest path from one string to another while changing one letter each step. (e.g. "cat" to "car" to "bar")
+	\item Performed recursive tree traversal using depth-first searching techniques to determine if the target word is a child of the current subtree.
+    \item Used nodes from the valid scrabble dictionary (>170,000 words) to generate path.
+\end{itemize}
+
+
+%==== Skills and Abilities ====%
+\header{Skills \& Abilities}
+\begin{multicols}{2}
+    \begin{itemize} \itemsep 1pt
+        \item RESTful APIs
+        \item LaTeX Typesetting
+        \item Advanced Python
+        \item Basic Database Management
+        \item Prompt Engineering, NLP
+        \item Web-applet Development
+        \item Customer Service (Publix, Chipotle)
+        \item Teamwork
+        \item Microsoft Office
+        \item Knight Hacks
+        \item UCF Astronomy Society: Treasurer, Volunteer
+        \item Mu Alpha Theta Honor Society
+    \end{itemize}
+\end{multicols}
+
+
+%==== Awards ====%
+\header{Awards}
+
+\textbf{UCF College of Sciences Dean's List} \hfill UCF College of Sciences\\
+In recognition of outstanding scholastic achievement for fall 2022 semester \hfill Nov 2022\\
+\vspace*{2mm}
+
+\textbf{Florida Academic Scholarship} \hfill Florida Dep. of Ed.\\
+For demonstrating academic achievement during high school\hfill May 2021\\
+\end{document}
+
